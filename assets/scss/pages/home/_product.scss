@@ -1,0 +1,31 @@
+.product {
+  
+
+  padding: 10px 0;
+
+  &-content {
+    width: 48.5%;
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 134%;
+    text-align: center;
+    color: #fff;
+    // background-color: red;
+
+    &-weight {
+      font-weight: 700;
+    }
+
+    &-subtitle {
+      width: 1440px;
+      height: 327px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+
+    }
+  }
+}
