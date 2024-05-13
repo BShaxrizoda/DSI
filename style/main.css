@@ -498,7 +498,13 @@ li {
   font-weight: 700;
 }
 .product-text-row {
-  padding: 71px 0;
+  display: flex;
+}
+.product-text-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134%;
+  color: #1F2E35;
 }
 .product-text-subtitle {
   font-weight: 500;
