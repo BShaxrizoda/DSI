@@ -1,27 +1,29 @@
 .product {
-  
-
-  padding: 10px 0;
-
   &-content {
     width: 48.5%;
   }
 
   &-text {
+    padding: 50px;
+    height: 327px;
     font-weight: 400;
     font-size: 48px;
     line-height: 134%;
+    justify-content: center;
     text-align: center;
     color: #fff;
-    // background-color: red;
+    background-color: $red-color;
 
     &-weight {
       font-weight: 700;
     }
 
+    &-row{
+      padding: 71px 0;
+    }
+
     &-subtitle {
-      width: 1440px;
-      height: 327px;
+     
       font-weight: 500;
       font-size: 18px;
       line-height: 150%;
